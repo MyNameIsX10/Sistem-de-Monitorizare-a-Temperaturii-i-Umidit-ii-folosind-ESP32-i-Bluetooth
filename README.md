@@ -1,22 +1,21 @@
-# Sistem de Monitorizare a Temperaturii și Umidității folosind ESP32 și Bluetooth
+# Temperature and Humidity Monitoring System using ESP32 and Bluetooth
 
-## Descriere
+## Description
 
-Acest proiect implementează un sistem de monitorizare a temperaturii și umidității utilizând un microcontroller ESP32 și un senzor DHT11. Proiectul folosește tehnologia Bluetooth pentru a transmite datele colectate către un dispozitiv mobil, oferind utilizatorilor posibilitatea de a accesa informațiile în timp real. Acest sistem este ideal pentru aplicații de monitorizare a mediului, precum sere, birouri sau locuințe.
+This project implements a temperature and humidity monitoring system using an ESP32 microcontroller and a DHT11 sensor. The project uses Bluetooth technology to transmit the collected data to a mobile device, allowing users to access real-time information. This system is ideal for environmental monitoring applications, such as greenhouses, offices, or homes.
 
-## Funcționalități Principale
+## Key Features
 
-- **Monitorizare în Timp Real:** Colectează și transmite date de temperatură și umiditate prin Bluetooth.
+- **Real-Time Monitoring:** Collects and transmits temperature and humidity data via Bluetooth.
   
-- **Interfață Ușor de Utilizat:** Utilizatorii pot accesa datele de pe un dispozitiv mobil printr-o aplicație Bluetooth, simplificând procesul de monitorizare.
+- **User-Friendly Interface:** Users can access the data from a mobile device through a Bluetooth app, simplifying the monitoring process.
 
-- **Senzor DHT11:** Utilizează un senzor DHT11 pentru măsurarea precisă a temperaturii și umidității.
+- **DHT11 Sensor:** Uses a DHT11 sensor for accurate temperature and humidity measurements.
 
-## Tehnologii Utilizate
+## Technologies Used
 
-- **ESP32:** Microcontroller cu capacități Wi-Fi și Bluetooth, utilizat pentru a crea sistemul de monitorizare și pentru a transmite datele.
+- **ESP32:** A microcontroller with Wi-Fi and Bluetooth capabilities, used to create the monitoring system and transmit data.
 
-- **Senzor DHT11:** Senzor de temperatură și umiditate, care oferă date precise despre condițiile de mediu.
+- **DHT11 Sensor:** A temperature and humidity sensor that provides precise environmental data.
 
-- **Bluetooth:** Protocol de comunicație utilizat pentru a transmite datele către dispozitivele mobile.
-
+- **Bluetooth:** A communication protocol used to transmit data to mobile devices.
