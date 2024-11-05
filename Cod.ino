@@ -48,7 +48,7 @@ void setup() {
   BLEAdvertising *pAdvertising = BLEDevice::getAdvertising();
   pAdvertising->start(); 
 
-  Serial.println("BLE a pornit și este gata să trimită date.");
+  Serial.println("BLE pornit");
 }
 
 void loop() {
