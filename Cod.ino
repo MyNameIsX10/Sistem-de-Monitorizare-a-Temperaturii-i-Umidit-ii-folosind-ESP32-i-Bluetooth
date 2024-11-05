@@ -17,11 +17,16 @@ bool deviceConnected = false;
 
 
 class MyServerCallbacks: public BLEServerCallbacks {
+   void onConnect(BLEServer* pServer) {
       deviceConnected = true;
+      Serial.println("Dispozitiv conectat.");
+
     }
 
     void onDisconnect(BLEServer* pServer) {
       deviceConnected = false;
+      Serial.println("Dispozitiv deconectat.");
+
     }
 };
 
